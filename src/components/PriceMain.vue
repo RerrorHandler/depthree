@@ -53,6 +53,10 @@
 #pricebutton {
     background-color: #3b3b3b;
 }
+#pricebutton:hover { 
+    background: #ae97bf; 
+}
+
 #pricemain {
 
 }
