@@ -3,7 +3,7 @@
         <div class="border-b-2 border-white text-white text-right pr-32" id="design">
             design<br>
             studio<br>
-            by Anuar
+            by Epik27
         </div>
     </div>
 </template>
