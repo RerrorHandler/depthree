@@ -1,38 +1,17 @@
 <template>
-  <div id="app">
-    <div id="nav">
+  <div class="mx-10 rounded-xl flex flex-col md:flex-row md:place">
+    <div class="flex flex-col px-2 md:px-20 pt-14 md:border-r-2">
+      <div>
+        <a href="https://docs.google.com/presentation/d/1lemguHQr0B0OZAeE-m3rBGLHpoSIUALTNXQ-gZaRKBs/edit?usp=sharing" class="text-2xl">Презентация </a>
+      </div>
     </div>
-    <router-view/>
   </div>
 </template>
-
-<style lang="scss">
-* {
-  font-family: "GOTHIC";
-  outline: none;
-}
-footer {
-  font-family: "PALA";
-}
-.bgmain {
-  background-image: url("assets/bgmain.png");
-  background-size: cover;
-  background-repeat:no-repeat;
-}
-.bg-original {
-  background-color: #333333;
-} 
-body {
-  background-color: #333333;
-}
-@font-face {
-  font-family: "GOTHIC";
-  src: local("GOTHIC"),
-   url(assets/fonts/GOTHIC.TTF) format("truetype");
-}
-@font-face {
-  font-family: "PALA";
-  src: local("PALA"),
-   url(assets/fonts/PALA.TTF) format("truetype");
+<style>
+@media (min-width: 768px) {
+    .md\:place {
+        min-height: calc(100vh - 4rem);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
 }
 </style>
